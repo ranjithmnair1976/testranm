@@ -1,0 +1,12 @@
+<hudson.plugins.sonar.SonarPublisher
+	plugin="sonar@2.4.1">
+	<jdk>JDK</jdk>
+	<branch></branch>
+	<mavenOpts></mavenOpts>
+	<jobAdditionalProperties></jobAdditionalProperties>
+	<mavenInstallationName>Maven</mavenInstallationName>
+	<rootPom></rootPom>
+	<settings class="jenkins.mvn.DefaultSettingsProvider" />
+	<globalSettings class="jenkins.mvn.DefaultGlobalSettingsProvider" />
+	<usePrivateRepository>false</usePrivateRepository>
+</hudson.plugins.sonar.SonarPublisher>
