@@ -15,6 +15,7 @@ import org.xml.sax.SAXException;
 
 import com.ust.plugins.build.jenkins.ConfigurationDocument;
 
+
 public class SerializeJobConfiguration {
 	public void parseConfiguration()
 			throws SAXException, IOException, ParserConfigurationException, TransformerException {
